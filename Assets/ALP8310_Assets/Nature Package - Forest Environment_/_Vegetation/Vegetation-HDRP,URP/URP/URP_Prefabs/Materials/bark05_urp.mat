@@ -2,15 +2,20 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: bark05_urp
   m_Shader: {fileID: 4800000, guid: b4b0069bb246a414ea3f417f7125ef56, type: 3}
-  m_ShaderKeywords: _ADD_PRECOMPUTED_VELOCITY _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT
-    _NORMALMAP_TANGENT_SPACE
+  m_ValidKeywords:
+  - _ENVIRONMENTREFLECTIONS_OFF
+  m_InvalidKeywords:
+  - _ADD_PRECOMPUTED_VELOCITY
+  - _ALPHATEST_ON
+  - _DISABLE_SSR_TRANSPARENT
+  - _NORMALMAP_TANGENT_SPACE
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -201,6 +206,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AORemapMax: 1
     - _AORemapMin: 0
@@ -276,6 +282,7 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
+    - _ENVIRONMENTREFLECTIONS_OFF: 1
     - _EmissionFlags: 0
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
@@ -337,8 +344,10 @@ Material:
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
+    - _RenderFace: 2
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
+    - _SPECULARHIGHLIGHTS_OFF: 0
     - _Smoothness: 0.5
     - _SmoothnessMax: 0.5663717
     - _SmoothnessMin: 0

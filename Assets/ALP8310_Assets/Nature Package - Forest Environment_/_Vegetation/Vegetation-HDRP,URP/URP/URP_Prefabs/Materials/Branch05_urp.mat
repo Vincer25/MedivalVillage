@@ -2,14 +2,19 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Branch05_urp
   m_Shader: {fileID: 4800000, guid: 3d595383dbc330d49a97f948e89cf22f, type: 3}
-  m_ShaderKeywords: _ADD_PRECOMPUTED_VELOCITY _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT
+  m_ValidKeywords:
+  - _ENVIRONMENTREFLECTIONS_OFF
+  m_InvalidKeywords:
+  - _ADD_PRECOMPUTED_VELOCITY
+  - _ALPHATEST_ON
+  - _DISABLE_SSR_TRANSPARENT
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -85,6 +90,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AddPrecomputedVelocity: 1
     - _AlphaCutoff: 0.5
@@ -120,6 +126,7 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
+    - _ENVIRONMENTREFLECTIONS_OFF: 1
     - _EmissionFlags: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
@@ -155,8 +162,10 @@ Material:
     - _RECEIVE_SHADOWS_OFF: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
+    - _RenderFace: 2
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
+    - _SPECULARHIGHLIGHTS_OFF: 0
     - _SmoothnessMax: 0.21426147
     - _SmoothnessMin: 0
     - _SmoothnessModeCutout: 0
@@ -222,7 +231,8 @@ Material:
     - __dirty: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DiffusionProfileHash_Asset: {r: -2.4588615e-31, g: -1.3830828e+22, b: -7.719544e-37, a: 7.3311907e-10}
+    - _DiffusionProfileHash_Asset: {r: -2.4588615e-31, g: -1.3830828e+22, b: -7.719544e-37,
+        a: 7.3311907e-10}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Smoothness: {r: 0, g: 0.21426147, b: 0, a: 0}

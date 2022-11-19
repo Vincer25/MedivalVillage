@@ -40,15 +40,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_41c5bc61c773403a8a4886a24180da17:
-        m_Texture: {fileID: 2800000, guid: 3d3d4ce4d2166374a9e599fac5878241, type: 3}
+        m_Texture: {fileID: 2800000, guid: a8c4ceaa8443db048a30467b275462db, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_7ac31505ade7411282604c1887f07516:
-        m_Texture: {fileID: 2800000, guid: 05a485ad40801d54eaedd69d4673826a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 49bc86548b06709419e20b50ceab9afa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_a382f731e63e49a38c9c11212fdd39ed:
-        m_Texture: {fileID: 2800000, guid: ef5f4e34112b96547bdab10cdadf6bce, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6e7031035c47d294fb0d31e0f6d41437, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -149,6 +149,7 @@ Material:
     - _OcclusionStrength: 1
     - _OpaqueCullMode: 2
     - _Parallax: 0.005
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _RayTracing: 0
     - _ReceiveShadows: 1
