@@ -1,0 +1,4 @@
+Tree Creator Prefabs:
+
+1:For correct work it is recommended to use prefabs like TerrainObjects.
+2:As a GameObject,correct operation of wind and optimization is not guaranteed!

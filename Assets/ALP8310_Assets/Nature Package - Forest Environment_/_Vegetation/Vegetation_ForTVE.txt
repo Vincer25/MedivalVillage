@@ -1,0 +1,11 @@
+-------Warning------
+
+For use Vegetation_ForTVE/Prefabs,
+need a The vegetation engine asset.
+Link AssetStore:
+
+https://assetstore.unity.com/packages/tools/utilities/the-vegetation-engine-159647
+
+Link Documentation The vegetation engine:
+
+https://docs.google.com/document/d/145JOVlJ1tE-WODW45YoJ6Ixg23mFc56EnB_8Tbwloz8/edit#heading=h.u2ox035i3s3h
