@@ -1,21 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Item : MonoBehaviour, IUsable
 {
+    [SerializeField]
+    private ItemData data;
+
+    public ItemData Data => data;
+
     public void Deselect()
     {
-        throw new System.NotImplementedException();
+        PromptManager.Instance.HidePrompt();
     }
 
     public void Select()
     {
-        throw new System.NotImplementedException();
+        PromptManager.Instance.ShowPrompt("Press E to collect");
     }
 
     public void Use()
     {
-        throw new System.NotImplementedException();
+        InventoryController.Instance.AddToInventory(data);
+        Destroy(gameObject);
     }
 }
