@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: b5ad555743c0d5b4caf696278c1b0ae3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ForestStick01
+    100002: ForestStick01LOD0
+    100004: ForestStick01LOD1
+    100006: ForestStick02
+    100008: ForestStick02_LOD0
+    100010: ForestStick02_LOD1
+    100012: ForestStick03
+    100014: ForestStick03LOD0
+    100016: ForestStick03LOD1
+    100018: //RootNode
+    100020: ForestStickSmall01
+    100022: ForestStickSmall02
+    100024: ForestStickSmall03
+    100026: ForestStickSmall03LOD0
+    100028: ForestStickSmall03LOD1
+    400000: ForestStick01
+    400002: ForestStick01LOD0
+    400004: ForestStick01LOD1
+    400006: ForestStick02
+    400008: ForestStick02_LOD0
+    400010: ForestStick02_LOD1
+    400012: ForestStick03
+    400014: ForestStick03LOD0
+    400016: ForestStick03LOD1
+    400018: //RootNode
+    400020: ForestStickSmall01
+    400022: ForestStickSmall02
+    400024: ForestStickSmall03
+    400026: ForestStickSmall03LOD0
+    400028: ForestStickSmall03LOD1
+    2100000: ForestSticks01
+    2300000: ForestStick01LOD0
+    2300002: ForestStick01LOD1
+    2300004: ForestStick02_LOD0
+    2300006: ForestStick02_LOD1
+    2300008: ForestStick03LOD0
+    2300010: ForestStick03LOD1
+    2300012: ForestStickSmall01
+    2300014: ForestStickSmall02
+    2300016: ForestStickSmall03LOD0
+    2300018: ForestStickSmall03LOD1
+    3300000: ForestStick01LOD0
+    3300002: ForestStick01LOD1
+    3300004: ForestStick02_LOD0
+    3300006: ForestStick02_LOD1
+    3300008: ForestStick03LOD0
+    3300010: ForestStick03LOD1
+    3300012: ForestStickSmall01
+    3300014: ForestStickSmall02
+    3300016: ForestStickSmall03LOD0
+    3300018: ForestStickSmall03LOD1
+    4300000: ForestStickSmall01
+    4300002: ForestStickSmall02
+    4300004: ForestStick02_LOD0
+    4300006: ForestStick02_LOD1
+    4300008: ForestStick01LOD0
+    4300010: ForestStick01LOD1
+    4300012: ForestStick03LOD0
+    4300014: ForestStick03LOD1
+    4300016: ForestStickSmall03LOD0
+    4300018: ForestStickSmall03LOD1
+    20500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
