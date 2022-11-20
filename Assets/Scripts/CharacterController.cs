@@ -31,6 +31,8 @@ public class CharacterController : MonoBehaviour
     private float crouchHeight = 0.5f;
     [SerializeField]
     private float speedReduction = 0.5f;
+    [SerializeField]
+    private float groundCheckDistance = 0.75f;
 
     private Rigidbody rb;
     private Vector3 originalTransformScale;
@@ -133,9 +135,8 @@ public class CharacterController : MonoBehaviour
     private void CheckGround()
     {
         var rayPosition = new Vector3(transform.position.x, transform.position.y - (transform.localScale.y * 0.5f), transform.position.z);
-        var rayDistance = 0.75f;
         var rayRadius = 0.1f;
-        if (Physics.SphereCast(rayPosition, rayRadius, Vector3.down, out RaycastHit hit, rayDistance))
+        if (Physics.SphereCast(rayPosition, rayRadius, Vector3.down, out RaycastHit hit, groundCheckDistance))
         {
             isGrounded = true;
         }
