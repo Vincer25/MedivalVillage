@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EndGame : MonoBehaviour
+public class StartGame : MonoBehaviour
 {
-    private void OnTriggerExit(Collider other)
+    public void StartScene()
     {
-        SceneManager.LoadScene("End");
+        SceneManager.LoadScene("SampleScene");
     }
 }

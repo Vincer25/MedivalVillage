@@ -3550,7 +3550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64241ff7447e142268650181ebbe7a86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 08ed7627f528de44e898f3670fdaf2d4, type: 3}
 --- !u!65 &2017782025
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -3231,6 +3231,7 @@ GameObject:
   - component: {fileID: 2017782023}
   - component: {fileID: 2017782025}
   - component: {fileID: 2017782024}
+  - component: {fileID: 2017782026}
   m_Layer: 0
   m_Name: WasInHouse
   m_TagString: Untagged
@@ -3265,7 +3266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64241ff7447e142268650181ebbe7a86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 08ed7627f528de44e898f3670fdaf2d4, type: 3}
 --- !u!65 &2017782025
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3279,6 +3280,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2017782026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017782021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ddb4a157dcc54d5282480f8d9c4accb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!33 &1032148704595252034
 MeshFilter:
   m_ObjectHideFlags: 0

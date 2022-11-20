@@ -25,9 +25,10 @@ public class InventoryController : MonoBehaviour
 
     private void Clear()
     {
-        for (int i = 0; i < inventoryList.Count; i++)
+        var temp = new List<ItemData>(inventoryList);
+        foreach (var item in temp)
         {
-            RemoveFromInventory(inventoryList[i]);
+            RemoveFromInventory(item);
         }
     }
 
