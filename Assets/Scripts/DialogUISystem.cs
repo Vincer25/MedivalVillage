@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class DialogUISystem : UIPanel
+public class DialogUISystem : MonoBehaviour
 {
     public static DialogUISystem Instance;
 
@@ -11,20 +11,25 @@ public class DialogUISystem : UIPanel
     private void Awake()
     {
         Instance = this;
-        gameObject.SetActive(false);
         textBox.enabled = false;
+    }
+
+    public void ShowTextAndPause(string text)
+    {
+        textBox.enabled = true;
+        textBox.SetText(text);
+        CharacterController.Instance.LockCameraAndMovement(true);
     }
 
     public void ShowText(string text)
     {
-        UIManager.Instance.OpenPanel(this);
         textBox.enabled = true;
         textBox.SetText(text);
     }
 
     public void HideText()
     {
-        UIManager.Instance.ClosePanel(this);
+        CharacterController.Instance.LockCameraAndMovement(false);
         textBox.enabled = false;
     }
 }

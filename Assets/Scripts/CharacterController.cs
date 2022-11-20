@@ -197,5 +197,6 @@ public class CharacterController : MonoBehaviour
     {
         canCameraMove = !state;
         canMove = !state;
+        canJump = !state;
     }
 }
