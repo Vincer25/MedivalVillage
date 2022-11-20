@@ -1,8 +1,11 @@
 using System.Collections;
 using UnityEngine;
+using System;
 
 public class DialogController : MonoBehaviour
 {
+    public Action onDialogEnd;
+
     public static DialogController Instance;
 
     [SerializeField]
@@ -49,6 +52,7 @@ public class DialogController : MonoBehaviour
             DialogUISystem.Instance.HideText();
             canSkip = false;
         }
+        onDialogEnd?.Invoke();
     }
 
     private IEnumerator StartDialog(string text)

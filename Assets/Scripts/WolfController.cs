@@ -7,9 +7,12 @@ public class WolfController : MonoBehaviour
     private NavMeshAgent agent;
     [SerializeField]
     private float waitDistance = 10f;
+    [SerializeField]
+    private Animator animator;
 
     private CharacterController player;
     private bool isWaiting = false;
+    private bool isWalking = false;
 
     private void Start()
     {
@@ -20,6 +23,11 @@ public class WolfController : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, player.transform.position) > waitDistance)
         {
+            if (!isWalking)
+            {
+                isWalking = true;
+                animator.SetBool("isWalking", isWalking);
+            }
             isWaiting = false;
             agent.destination = player.transform.position;
         }
@@ -32,6 +40,8 @@ public class WolfController : MonoBehaviour
     private void WaitPosition()
     {
         isWaiting = true;
+        isWalking = false;
+        animator.SetBool("isWalking", isWalking);
         agent.destination = agent.transform.position;
     }
 }

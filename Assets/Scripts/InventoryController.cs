@@ -9,11 +9,26 @@ public class InventoryController : MonoBehaviour
 
     public static InventoryController Instance;
 
+    public List<ItemData> Inventory => inventoryList;
+
     private List<ItemData> inventoryList = new();
 
     private void Awake()
     {
         Instance = this;
+    }
+
+    private void Start()
+    {
+        DialogController.Instance.onDialogEnd += Clear;
+    }
+
+    private void Clear()
+    {
+        for (int i = 0; i < inventoryList.Count; i++)
+        {
+            RemoveFromInventory(inventoryList[i]);
+        }
     }
 
     public void AddToInventory(ItemData item)

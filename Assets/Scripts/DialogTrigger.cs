@@ -1,7 +1,10 @@
 using UnityEngine;
+using System;
 
 public class DialogTrigger : MonoBehaviour, IUsable
 {
+    public Action onDialog;
+
     [SerializeField]
     private DialogData data;
     [SerializeField]
@@ -46,6 +49,7 @@ public class DialogTrigger : MonoBehaviour, IUsable
         {
             Deselect();
             DialogController.Instance.ActivateDialog(data);
+            onDialog?.Invoke();
         }
         if (!canBeActivatedAgain)
         {
